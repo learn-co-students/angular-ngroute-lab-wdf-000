@@ -1,4 +1,4 @@
-function UserController() {
+function UserController($scope,$routeParams,test) {
 }
 
 angular
