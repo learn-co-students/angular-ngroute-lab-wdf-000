@@ -7,7 +7,7 @@ angular
     })
     .config(function($routeProvider){
       $routeProvider
-        .when('/user/:name', {
+        .when('/user/:id', {
             controller: 'UserController',
             templateUrl: 'views/user.html',
             resolve: {
