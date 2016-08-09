@@ -1,4 +1,5 @@
-function UserController($scope,$routeParams,test) {
+function UserController($scope,test){
+  $scope.test = test
 }
 
 angular
