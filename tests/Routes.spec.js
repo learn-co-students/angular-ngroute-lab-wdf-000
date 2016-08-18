@@ -11,7 +11,7 @@ describe('Routes', function () {
 
 		var state;
 		it('should have the correct URL', function () {
-			state = $route.routes['/user/:id'];
+			state = $route.routes['/user/:name'];
 
 			expect(state).toBeDefined();
 		});
