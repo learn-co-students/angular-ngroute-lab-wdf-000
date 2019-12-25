@@ -1,4 +1,5 @@
-function UserController() {
+function UserController($scope,test){
+  $scope.test = test
 }
 
 angular
